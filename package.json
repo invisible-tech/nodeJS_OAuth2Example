@@ -10,10 +10,12 @@
     "mysql": "^2.13.0",
     "node-oauth2-server": "^2.4.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "author": "Micah Simmons",
   "license": "ISC"
